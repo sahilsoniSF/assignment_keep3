@@ -1,0 +1,30 @@
+<div>
+
+    <form [formGroup] = "loginform"  class = "loginForm" >
+        <h1>Login</h1>
+        <mat-form-field>
+            <input formControlName="username"
+            matInput
+            placeholder="User Name">
+        </mat-form-field>
+        <small>
+            <!-- {{getUserNameErrorMessage()}} -->
+        </small>
+
+
+        <mat-form-field>
+            <input type="password"
+            formControlName="password"
+            matInput
+            placeholder="Password">
+        </mat-form-field>
+        <small>
+            <!-- {{getPasswordErrorMessage()}} -->
+        </small>
+
+        <button mat-raised-button color="primary" (click)="loginSubmit()">Login</button>
+    </form>
+
+</div>
+
+<strong *ngIf="submitMessage" class="error-message">{{submitMessage}}</strong>

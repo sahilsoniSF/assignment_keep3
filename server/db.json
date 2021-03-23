@@ -2,7 +2,7 @@
   "notes": [
     {
       "id": 1,
-      "title": "Read Angular5 blog",
+      "title": "Read Angular5 ",
       "text": "Shall do at 6 pm",
       "state": "not-started"
     },
@@ -17,6 +17,48 @@
       "text": "Mark Twain",
       "id": 3,
       "state": "completed"
+    },
+    {
+      "title": "soni",
+      "text": "dsasd",
+      "state": "not-started",
+      "id": 4
+    },
+    {
+      "title": "soni",
+      "text": "dsasd",
+      "state": "not-started",
+      "id": 5
+    },
+    {
+      "title": "Complete assignment ",
+      "text": "dsasd",
+      "state": "not-started",
+      "id": 6
+    },
+    {
+      "title": "contact manager",
+      "text": "ask to review",
+      "state": "not-started",
+      "id": 7
+    },
+    {
+      "title": "asdas",
+      "text": "asdasd",
+      "state": "not-started",
+      "id": 8
+    },
+    {
+      "title": "soni",
+      "text": "ll",
+      "state": "not-started",
+      "id": 9
+    },
+    {
+      "title": "soni",
+      "text": "ll",
+      "state": "completed",
+      "id": 10
     }
   ]
 }
